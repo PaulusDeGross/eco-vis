@@ -21,10 +21,55 @@
 body {
     background-color: var(--clr-darker);
     flex-wrap: wrap;
+    text-align: center;
+}
+
+span{
+    font-size: x-large;
+    font-weight: bold;
+    color: var(--clr-primary-2);
 }
 
 .background{
     padding-top: 10em;
+}
+
+p{
+    padding: 1em;
+    text-align: center;
+}
+
+.assign{
+    text-align: justify;
+}
+
+.assign a::before{
+    position: absolute;
+    content: "";
+    width: 0em;
+    height: 0.2em;
+    margin-top: 1.125em;
+    background-color: #03e0ff;
+    transition: 0.3s all;
+}
+
+.assign a:hover::before{
+    width: 7em;
+}
+
+.assign a::after{
+    background-color: #00000000;
+}
+
+li{
+    list-style-type: none;
+}
+
+.source-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    row-gap: 1em;
 }
 
 .navbar{
@@ -57,7 +102,7 @@ a{
 a::after{
     position: absolute;
     content: "";
-    width: 0.1em;
+    width: 2px;
     height: 0;
     margin-top: 0.125em;
     margin-left: 0.2em;
@@ -111,11 +156,47 @@ a:hover::after{
     border-radius: 1em;
     margin: 1em;
     transition: 0.3s all;
+    background-color: var(--clr-dark);
 }
 
 .teamcard:hover{
     transform: scale(1.1);
     box-shadow: 0px 0px 15px 5px var(--clr-darkest);
+}
+
+.footer{
+    position: absolute;
+    background-color: var(--clr-darkest);
+    padding: 1em;
+    text-align: center;
+    bottom: 0;
+    width: 98.3%;
+    position: static;
+}
+
+.zitat{
+    font-style: italic;
+}
+
+
+
+.geg-grid__ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.left{
+    text-align: left;
+}
+
+.assign ul li{
+    margin: 1em;
+    padding: 1em;
+    border-bottom: 2px solid var(--clr-darkest);
+}
+
+.geg-grid__li{
+    border-right: 2px solid var(--clr-darkest);
 }
 
 @media screen and (max-width: 1320px) {
@@ -140,6 +221,16 @@ a:hover::after{
     .team{
         display: flex;
         flex-direction: column;
+    }
+
+    .footer{
+        width: 96.5%;
+    }
+
+    .source-list{
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 1em;
+        row-gap: 1em;
     }
 
 }
