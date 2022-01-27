@@ -48,6 +48,10 @@ p{
     text-align: justify;
 }
 
+.footer a{
+    margin: 1em;
+}
+
 .assign a::before{
     position: absolute;
     content: "";
@@ -239,6 +243,9 @@ a:hover::after{
         row-gap: 1em;
     }
 
-
+    .aufgabe1 ul li{
+        text-align: center;
+        justify-content: center;
+    }
 
 }
