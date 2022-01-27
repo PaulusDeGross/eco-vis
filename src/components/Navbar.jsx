@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <div className="navbar">
+        <div className="navbar border-b">
             <a className="logo" href="#welcome">ECO-VIS</a>
             <ul>
                 <li><a target="_blank" href="https://econo-me.de">Econo-Me</a></li>

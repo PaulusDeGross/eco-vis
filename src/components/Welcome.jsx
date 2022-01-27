@@ -2,7 +2,7 @@ import React from 'react';
 
 const Welcome = () => {
   return (
-    <>
+    <div className="border-b">
       <h1 class="header">Wilkommen!</h1>
       <p>
         Das Team und ich heißen Sie Herzlich Wilkommen!<br />
@@ -11,7 +11,7 @@ const Welcome = () => {
         <span>Viel Spaß</span><br />
         ~ Paul März und das gesamte Eco-Vis Team
       </p>
-    </>
+    </div>
   );
 };
 

@@ -18,6 +18,10 @@
     user-select: none;
 }
 
+.border-b{
+    border-bottom: 2px solid var(--clr-darkest);
+}
+
 body {
     background-color: var(--clr-darker);
     flex-wrap: wrap;
@@ -40,6 +44,7 @@ p{
 }
 
 .assign{
+    margin-bottom: 1em;
     text-align: justify;
 }
 
@@ -214,8 +219,9 @@ a:hover::after{
         padding-top: 0;
     }
 
-    .logo:hover::before{
-        width: 17%;
+    .logo{
+        justify-content: center;
+        text-align: center;
     }
 
     .team{
@@ -232,5 +238,7 @@ a:hover::after{
         column-gap: 1em;
         row-gap: 1em;
     }
+
+
 
 }

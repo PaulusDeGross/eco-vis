@@ -16,7 +16,7 @@ function App() {
                 <Welcome id="welcome" />
                 <Assignment1 />
                 <h1 className="header">Über uns</h1>
-                <div id="team" className="team">
+                <div id="team" className="team border-b">
                     <TeamCard
                         name="Paul"
                         why="Ich bin der Technikfreakt im Team. Von mir stammt die Website sowie das Design eben dieser. An Econo-Me habe ich teilgenommen, um mich weiter über unsere Wirtschaft und deren Zukunft zu informieren."
