@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { TeamCard, Navbar, Welcome, Footer } from "./components/index";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <>
+            <Navbar className="foreground" />
+            <div className="background">
+                <Welcome />
+
+                <h1 className="header">Über uns</h1>
+                <div id="team" className="team">
+                    <TeamCard
+                        name="Paul März"
+                        why="Ich bin der Technikfreakt im Team. Von mir stammt die Website sowie das Design eben dieser. An Econo-Me habe ich teilgenommen, um mich weiter über unsere Wirtschaft und deren Zukunft zu informieren."
+                        reference="https://www.github.com/PaulusDeGross"
+                        ref_n="GitHub"
+                    />
+                    <TeamCard
+                        name="Katharina Jäger"
+                        why="Ich bin der Technikfreakt im Team. Von mir stammt die Website sowie das Design eben dieser. An Econo-Me habe ich teilgenommen, um mich weiter über unsere Wirtschaft und deren Zukunft zu informieren."
+                        reference="unknown"
+                        ref_n="unknown"
+                    />
+                    <TeamCard
+                        name="Lara Stuhlmüller"
+                        why="Ich bin der Technikfreakt im Team. Von mir stammt die Website sowie das Design eben dieser. An Econo-Me habe ich teilgenommen, um mich weiter über unsere Wirtschaft und deren Zukunft zu informieren."
+                        reference="unknown"
+                        ref_n="unknown"
+                    />
+                </div>
+            </div>
+            <Footer />
+        </>
+    );
 }
 
 export default App;

@@ -1,38 +1,145 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+    --clr-darkest: #14151c;
+    --clr-darker: #21222c;
+    --clr-dark: #3d3f52;
+    --clr-light: #74789d;
+    --clr-ligter: #acb2e9;
+    --clr-lightest: #fff;
+    --clr-primary-1: #03e0ff;
+    --clr-primary-2: #02beff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+    font-family: "Montserrat", sans-serif;
+    color: var(--clr-lightest);
+    scroll-behavior: smooth;
+    user-select: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+    background-color: var(--clr-darker);
+    flex-wrap: wrap;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.background{
+    padding-top: 10em;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar{
+    backdrop-filter: blur(10px);
+    top: 0;
+    width: 100%;
+    text-align: center;
+    font-size: larger;
+    position: fixed;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar li{
+    display: inline-block;
+    padding: 1em;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: var(--clr-primary-1);
+}
+
+
+a{
+    color: var(--clr-primary-1);
+    text-decoration: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    transition: 0.3s all;
+}
+
+a::after{
+    position: absolute;
+    content: "";
+    width: 0.1em;
+    height: 0;
+    margin-top: 0.125em;
+    margin-left: 0.2em;
+    background-color: #03e0ff;
+    transition: 0.3s all;
+}
+
+a:hover::after{
+    height: 1em;
+}
+
+.logo{
+    font-size: xx-large;
+    text-decoration: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    transition: 0.3s all;
+    text-align: center;
+}
+
+.logo:hover{
+    color: var(--clr-primary-1);
+    font-weight: 900;
+}
+
+.team{
+    display: flex;
+    margin: 1em;
+    padding: 1em;
+    justify-content: space-between;
+}
+
+.header{
+    text-align: center;
+}
+
+.header::after{
+    position: absolute;
+    content: "";
+    width: 0.1em;
+    height: 1em;
+    margin-top: 0.125em;
+    margin-left: 0.2em;
+    background-color: #03e0ff;
+    transition: 0.3s all;
+}
+
+.teamcard{
+    text-align: center;
+    border: 0.2em solid var(--clr-darkest);
+    padding: 1em;
+    border-radius: 1em;
+    margin: 1em;
+    transition: 0.3s all;
+}
+
+.teamcard:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 5px var(--clr-darkest);
+}
+
+@media screen and (max-width: 1320px) {
+    
+    .navbar{
+        position: static;
+    }
+
+    .navbar li{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .background{
+        padding-top: 0;
+    }
+
+    .logo:hover::before{
+        width: 17%;
+    }
+
+    .team{
+        display: flex;
+        flex-direction: column;
+    }
+
 }
