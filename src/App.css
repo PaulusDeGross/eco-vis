@@ -18,6 +18,11 @@
     user-select: none;
 }
 
+body, html{
+    padding: 0;
+    height: 100%;
+}
+
 .border-b{
     border-bottom: 2px solid var(--clr-darkest);
 }
@@ -179,7 +184,7 @@ a:hover::after{
     padding: 1em;
     text-align: center;
     bottom: 0;
-    width: 98.3%;
+    width: 171%;
     position: static;
 }
 
@@ -208,6 +213,20 @@ a:hover::after{
     border-right: 2px solid var(--clr-darkest);
 }
 
+.container {
+    width: 100%;
+}
+@media (min-width: 640px) {
+    .container {
+        max-width: 640px;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
 @media screen and (max-width: 1320px) {
     
     .navbar{
@@ -226,15 +245,12 @@ a:hover::after{
     .logo{
         justify-content: center;
         text-align: center;
+        margin-left: 1.2em;
     }
 
     .team{
         display: flex;
         flex-direction: column;
-    }
-
-    .footer{
-        width: 96.5%;
     }
 
     .source-list{
@@ -246,6 +262,10 @@ a:hover::after{
     .aufgabe1 ul li{
         text-align: center;
         justify-content: center;
+    }
+
+    .footer{
+        width: 98%;
     }
 
 }
