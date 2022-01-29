@@ -39,9 +39,12 @@ function App() {
                         ref_n="unknown"
                     />
                 </div>
-                <Sources />
+
+                <div id="quellen"><Sources /></div>
             </div>
-            <Footer />
+            <div className="container">
+                <Footer />
+            </div>
         </>
     );
 }
