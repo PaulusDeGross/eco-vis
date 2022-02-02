@@ -26,21 +26,23 @@ function App() {
                     />
                     <TeamCard
                         name="Katharina"
-                        why="unknown"
+                        why="Ich bin der Technikfreakt im Team. Von mir stammt die Website sowie das Design eben dieser. An Econo-Me habe ich teilgenommen, um mich weiter über unsere Wirtschaft und deren Zukunft zu informieren."
                         role="Recherche"
                         reference="unknown"
                         ref_n="unknown"
                     />
                     <TeamCard
                         name="Lara"
-                        why="unknown"
+                        why="Ich bin der Technikfreakt im Team. Von mir stammt die Website sowie das Design eben dieser. An Econo-Me habe ich teilgenommen, um mich weiter über unsere Wirtschaft und deren Zukunft zu informieren."
                         role="Recherche"
                         reference="unknown"
                         ref_n="unknown"
                     />
                 </div>
 
-                <div id="quellen"><Sources /></div>
+                <div id="quellen">
+                    <Sources />
+                </div>
             </div>
             <div className="container">
                 <Footer />
