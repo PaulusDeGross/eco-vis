@@ -40,7 +40,7 @@ const Assignment1 = () => {
                 </p>
             </div >
             <div className="assign border-b aufgabe2" id="aufgabe2">
-                <h2 className="header">Aufgabe 2</h2>
+                <h2 className="header">Die Umfrage</h2>
                 <p className="assign">
                     Die Frage "Welche Probleme gibt es an Unserer Marktwirtschaft?", kann unser Team natürlich beantworten, jedoch haben wir Uns dazu entschieden möglichst viele Meinungen in unserer Website zu vertreten. Deshalb haben Wir eine Umfrage gestartet, bei denen viele Schülerinnen und Schüler der Ober- und Mittelstufe unseres Gymnasiums auf folgende Fragen antworteten: 
                 </p>
