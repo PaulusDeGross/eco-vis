@@ -23,6 +23,10 @@ body, html{
     height: 100%;
 }
 
+.highlight{
+    color: var(--clr-primary-2);
+}
+
 .border-b{
     border-bottom: 2px solid var(--clr-darkest);
 }
@@ -33,7 +37,7 @@ body {
     text-align: center;
 }
 
-span{
+.logo{
     font-size: x-large;
     font-weight: bold;
     color: var(--clr-primary-2);
@@ -172,13 +176,12 @@ a:hover::after{
     margin: 1em;
     transition: 0.3s all;
     background-color: var(--clr-dark);
-    box-shadow: 5px -5px 10px 5px var(--clr-darkest);
     z-index: 0;
 }
 
 .teamcard:hover{
     transform: scale(1.1);
-    box-shadow: 0px 0px 15px 5px var(--clr-primary-1);
+    box-shadow: 0px 0px 15px 5px var(--clr-darkest);
 }
 
 .footer{
@@ -274,11 +277,16 @@ a:hover::after{
         grid-template-columns: repeat(1, 1fr);
         column-gap: 1em;
         row-gap: 1em;
+        margin-left: -2.5em;
     }
 
 
     .footer{
         width: 98%;
+    }
+
+    .footer div{
+        margin-left: -1em;
     }
 
     .arrow__img{

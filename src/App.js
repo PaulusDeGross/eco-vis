@@ -19,24 +19,24 @@ function App() {
                 <div id="team" className="team border-b">
                     <TeamCard
                         name="Paul"
-                        why="Ich bin der Technikfreakt im Team. Von mir stammt die Website sowie das Design eben dieser. An Econo-Me habe ich teilgenommen, um mich weiter über unsere Wirtschaft und deren Zukunft zu informieren."
+                        why="Ich habe an econo-me teilgenommen, um mehr über unsere Wirtschaft und die Zukunft unserer Wirtschaft zu lernen. Ich habe mir außerdem in diesem Zeitraum die Webentwicklung in React.js von grundauf beigebracht."
                         role="IT Manager"
                         reference="https://www.github.com/PaulusDeGross"
                         ref_n="GitHub"
                     />
                     <TeamCard
-                        name="Katharina"
-                        why="Ich bin der Technikfreakt im Team. Von mir stammt die Website sowie das Design eben dieser. An Econo-Me habe ich teilgenommen, um mich weiter über unsere Wirtschaft und deren Zukunft zu informieren."
+                        name="Lara"
+                        why="Ich bin Teil des Informationsteams. Ich suche nach Informationen, forsche nach und formuliere anschließend die Texte. Und ich bin froh darüber, ich habe nämlich keine Ahnung von Technik..."
                         role="Recherche"
-                        reference="unknown"
-                        ref_n="unknown"
+                        reference="https://discord.gg/ggvDbvVEZ3"
+                        ref_n="Discord"
                     />
                     <TeamCard
-                        name="Lara"
-                        why="Ich bin der Technikfreakt im Team. Von mir stammt die Website sowie das Design eben dieser. An Econo-Me habe ich teilgenommen, um mich weiter über unsere Wirtschaft und deren Zukunft zu informieren."
+                        name="Katharina"
+                        why="Ich war ebenfalls Teil des Informationsteams, und habe bei der Formulierung der finalen Texte geholfen. Ich habe mich zudem mit der Informationsfindung beschäftigt."
                         role="Recherche"
-                        reference="unknown"
-                        ref_n="unknown"
+                        reference=""
+                        ref_n=""
                     />
                 </div>
 
