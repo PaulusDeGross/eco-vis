@@ -92,6 +92,7 @@ li{
 
 .navbar{
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     top: 0;
     width: 100%;
     text-align: center;
@@ -110,6 +111,17 @@ li{
     color: var(--clr-primary-1);
 }
 
+@-moz-document {
+    .navbar{
+        background-color: var(--clr-darker);
+        top: 0;
+        width: 100%;
+        text-align: center;
+        font-size: larger;
+        position: fixed;
+        z-index: 2;
+    }
+}
 
 a{
     color: var(--clr-primary-1);
