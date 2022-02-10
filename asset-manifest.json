@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/eco-vis/static/css/main.4196fbd7.css",
-    "main.js": "/eco-vis/static/js/main.f8dc599d.js",
+    "main.css": "/eco-vis/static/css/main.d62ba4bd.css",
+    "main.js": "/eco-vis/static/js/main.d6e68feb.js",
     "static/media/arrow.svg": "/eco-vis/static/media/arrow.3e776adafb33159750e0dfa91030cbb5.svg",
     "index.html": "/eco-vis/index.html",
-    "main.4196fbd7.css.map": "/eco-vis/static/css/main.4196fbd7.css.map",
-    "main.f8dc599d.js.map": "/eco-vis/static/js/main.f8dc599d.js.map"
+    "main.d62ba4bd.css.map": "/eco-vis/static/css/main.d62ba4bd.css.map",
+    "main.d6e68feb.js.map": "/eco-vis/static/js/main.d6e68feb.js.map"
   },
   "entrypoints": [
-    "static/css/main.4196fbd7.css",
-    "static/js/main.f8dc599d.js"
+    "static/css/main.d62ba4bd.css",
+    "static/js/main.d6e68feb.js"
   ]
 }
