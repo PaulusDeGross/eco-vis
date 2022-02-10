@@ -66,7 +66,7 @@ const Assignment1 = () => {
                     Als Vierte und somit letzte Frage stellte sich heraus, dass einige Jugendliche kein Vertrauen in die Zukunft haben. Wir fragten, wie die Soziale Marktwirtschaft in der Zukunft wohl aussehen wird, und ob Sie denken, dass Ihre Wünsche eventuell in Erfüllung gehen. Fast alle von Ihnen meinen, dass es sehr unwahrscheinlich wäre, da es zum Teil ein komplettes Umdenken fordert. Wir als Team hoffen jedoch in die Soziale Marktwirtschaft und in den Staat. Es muss sich etwas ändern. 
                 </p>
                 <p className="assign">
-                    Zusammenfassend kann man sagen, dass die Jugendliche im Grunde genommen zufrieden mit der sozialen Marktwirtschaft sind. Die Grundideen sind gut, jedoch mangelt es an einigen Stellen, wo man tiefer nachdenken muss. Zitat :" Die Regierung muss was gscheits machen, mal zur Abwechslung." 
+                    Zusammenfassend kann man sagen, dass die Jugendliche im Grunde genommen zufrieden mit der sozialen Marktwirtschaft sind. Die Grundideen sind gut, jedoch mangelt es an einigen Stellen, wo man tiefer nachdenken muss. Zitat:" Die Regierung muss was gscheits machen, mal zur Abwechslung." 
                     Wir hoffen zusammen, dass genau das geschehen wird. Wir hoffen auf eine gescheite Zukunft.
                 </p>
             </div >
